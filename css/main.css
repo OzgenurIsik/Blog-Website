@@ -1,0 +1,138 @@
+h1{margin: 0;}
+html {
+    font-family: 'Quintessential', cursive;
+}
+#navbar{
+    color:bisque;
+    background-color: rgb(11, 1, 20);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0,25rem;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+li{
+    list-style-type: none; 
+}
+a {
+    padding: 0.6rem;
+    text-decoration: none;
+    color:bisque;
+}
+i{
+    padding: 1.25rem;
+}
+nav ul li a:hover{
+    background: rgb(44, 34, 54) ;
+    border-radius: 2rem;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom:1px solid rgba(170, 108, 15, 0.55);
+}
+#home img{
+    max-width: 95%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name{
+    text-align: center;
+}
+#home .name p{
+    opacity: 0.6;
+}
+#about{
+color:bisque;
+padding: 1rem;
+}
+#about .items{
+    display:flex ;
+    justify-content: space-between;
+    align-items:center ;
+}
+#about .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#about .items .item:hover{
+    background-color: hsl(33, 100%, 88%);
+    color: rgb(11, 1, 20);
+    opacity: 0.7;
+}
+font{
+    float: left;
+    letter-spacing: 2px;
+    padding-top: 0.25rem;
+    font-size: 1,5rem;
+}
+span{
+    font-size: 0.80;
+    letter-spacing: 1px;
+    
+}
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+header{width: 100%;
+height: 10%;
+margin-bottom: 5px;
+}
+#headerResim{
+    width: 100%;
+    height: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(170, 108, 15, 0.55);
+}
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(170, 108, 15,.55);
+    overflow: auto;
+}
+#navbarMenu{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+#navbarMenu ul{
+    width: auto;
+    height: 100%;
+    padding: 0;
+}
+#navbarMenu ul li{
+    padding: 1rem ;
+}
+#navbarMenu li a{
+    border-bottom: 1px solid #ffe4c4;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    padding-left: 20px;
+}
+#navbarMenu ul li a:hover{
+    color: rgb(11, 1, 20);
+    background-color: bisque;
+}

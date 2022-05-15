@@ -3,8 +3,8 @@ html {
     font-family: 'Quintessential', cursive;
 }
 #navbar{
-    color:bisque;
-    background-color: rgb(11, 1, 20);
+    color:bisque !important;
+    background-color: rgb(11, 1, 20) !important;
     display: flex;
     justify-content: space-between;
     padding: 0rem 0,25rem;
@@ -27,14 +27,15 @@ li{
 a {
     padding: 0.6rem;
     text-decoration: none;
-    color:bisque;
+    color:bisque !important;
 }
 i{
     padding: 1.25rem;
 }
-nav ul li a:hover{
-    background: rgb(44, 34, 54) ;
+nav a:hover{
+    background: rgb(44, 34, 54)  !important;
     border-radius: 2rem;
+    
 }
 #home{
     display: flex;
@@ -42,7 +43,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    border-bottom:1px solid rgba(170, 108, 15, 0.55);
+    border-bottom:1px solid rgba(170, 108, 15, 0.55)  !important;
 }
 #home img{
     max-width: 95%;
@@ -55,24 +56,29 @@ nav ul li a:hover{
 #home .name p{
     opacity: 0.6;
 }
-#about{
-color:bisque;
+#contact{
+color:bisque !important;
 padding: 1rem;
 }
-#about .items{
+#contact .items{
     display:flex ;
     justify-content: space-between;
     align-items:center ;
 }
-#about .items .item{
+#contact .items .item{
     width: 33%;
     text-align: center;
     padding: 0.5rem;
 }
-#about .items .item:hover{
-    background-color: hsl(33, 100%, 88%);
-    color: rgb(11, 1, 20);
+#contact .items .item:hover{
+    background-color: hsl(33, 100%, 88%) !important;
+    color: rgb(11, 1, 20) !important;
     opacity: 0.7;
+}
+#carouselExampleDark{
+    max-width: 80% !important;
+    height: 0% !important;
+    
 }
 font{
     float: left;
@@ -100,7 +106,7 @@ margin-bottom: 5px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     opacity: 0.8;
-    box-shadow: 0 2px 8px 2px rgba(170, 108, 15, 0.55);
+    box-shadow: 0 2px 8px 2px rgba(170, 108, 15, 0.55) !important;
 }
 section{
     width: 100%;
@@ -108,7 +114,7 @@ section{
     margin-top: 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 2px 8px 2px rgba(170, 108, 15,.55);
+    box-shadow: 0 2px 8px 2px rgba(170, 108, 15,.55)  !important;
     overflow: auto;
 }
 #navbarMenu{
@@ -126,7 +132,7 @@ section{
     padding: 1rem ;
 }
 #navbarMenu li a{
-    border-bottom: 1px solid #ffe4c4;
+    border-bottom: 1px solid #ffe4c4  !important;
     height: 50px;
     line-height: 50px;
     display: block;
@@ -134,5 +140,5 @@ section{
 }
 #navbarMenu ul li a:hover{
     color: rgb(11, 1, 20);
-    background-color: bisque;
+    background-color: bisque  !important;
 }
